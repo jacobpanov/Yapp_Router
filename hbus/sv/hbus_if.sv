@@ -1,16 +1,8 @@
 /*-----------------------------------------------------------------
-File name     : hbus_interface.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
-Description   : HBUS UVC interface for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
+File name     : hbus_if.sv
+Developers    : Jacob Panov
+Description   : hbus instantiation for accelerated UVM
 -----------------------------------------------------------------*/
-
-//------------------------------------------------------------------------------
-//  FILE : hbus_if.sv
-//------------------------------------------------------------------------------
 
 interface hbus_if (input clock, input reset);
   import uvm_pkg::*;

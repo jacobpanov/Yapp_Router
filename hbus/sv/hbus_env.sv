@@ -1,18 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : hbus_env.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
-Description   : HBUS UVC env (top level) for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
+Developers    : Jacob Panov
+Description   : hbus Environment for accelerated UVM
 -----------------------------------------------------------------*/
-
-//------------------------------------------------------------------------------
-//
-// CLASS: hbus_env
-//
-//------------------------------------------------------------------------------
 
 class hbus_env extends uvm_env;
 
