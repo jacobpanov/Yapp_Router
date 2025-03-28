@@ -1,8 +1,9 @@
 /*-----------------------------------------------------------------
 File name     : hbus_env.sv
 Developers    : Jacob Panov
-Description   : hbus Environment for accelerated UVM
+Description   : HBUS UVC env (top level) for accelerated UVM
 -----------------------------------------------------------------*/
+main
 
 class hbus_env extends uvm_env;
 
@@ -66,5 +67,3 @@ endclass : hbus_env
     foreach(slaves [i]) 
       slaves[i].monitor = bus_monitor;
   endfunction : connect_phase
-
-

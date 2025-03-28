@@ -3,6 +3,7 @@ File name     : hbus_if.sv
 Developers    : Jacob Panov
 Description   : hbus instantiation for accelerated UVM
 -----------------------------------------------------------------*/
+main
 
 interface hbus_if (input clock, input reset);
   import uvm_pkg::*;
@@ -196,5 +197,3 @@ default disable iff (reset);
      `uvm_error("HBUS Interface","Address not stable during read")
 */
 endinterface : hbus_if
-
-
