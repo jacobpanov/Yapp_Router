@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : hbus_master_seqs.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
+Developers    : Jacob Panov
 Description   : HBUS UVC master sequences for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -291,4 +287,3 @@ class hbus_set_get_regs_seq extends hbus_base_seq;
     `uvm_do(read_en_seq)
   endtask : body
 endclass : hbus_set_get_regs_seq
-

@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_rx_monitor.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Channel UVC monitor for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -156,4 +152,3 @@ task channel_rx_monitor::run_phase(uvm_phase phase);
   function void channel_rx_monitor::report_phase(uvm_phase phase);
     `uvm_info(get_type_name(), $sformatf("Report: %s Monitor Collected %0d Packets", instance_id, num_pkt_col), UVM_LOW)
   endfunction : report_phase
-

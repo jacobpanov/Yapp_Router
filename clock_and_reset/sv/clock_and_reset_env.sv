@@ -1,4 +1,8 @@
-/* Copyright Cadence Design Systems (c) 2015 */
+/*-----------------------------------------------------------------
+File name     : clock_and_reset_env.sv
+Developers    : Jacob Panov
+Description   : Clock and Reset UVC environment for accelerated UVM
+-----------------------------------------------------------------*/
 
 class clock_and_reset_env extends uvm_env;
 

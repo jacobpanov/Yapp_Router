@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : hbus_master_driver.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
+Developers    : Jacob Panov
 Description   : HBUS UVC master driver for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -82,5 +78,3 @@ class hbus_master_driver extends uvm_driver #(hbus_transaction);
   endtask : reset_signals
 
 endclass : hbus_master_driver
-
-

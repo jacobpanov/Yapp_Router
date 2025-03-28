@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : demo_top.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov
 Description   : Demo top module for Channel UVC for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 module demo_top;
 

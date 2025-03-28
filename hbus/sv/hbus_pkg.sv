@@ -1,11 +1,7 @@
 /*-----------------------------------------------------------------
 File name     : hbus_pkg.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
+Developers    : Jacob Panov
 Description   : HBUS UVC package for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
 -----------------------------------------------------------------*/
 
 package hbus_pkg;
@@ -34,4 +30,3 @@ package hbus_pkg;
   `include "hbus_reg_adapter.sv"
 
 endpackage : hbus_pkg
-

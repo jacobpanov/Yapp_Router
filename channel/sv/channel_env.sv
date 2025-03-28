@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_env.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
-Description   : Channel UVC env for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+Developers    : Jacob Panov
+Description   : Channel UVC environment for accelerated UVM
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -52,4 +48,3 @@ endclass : channel_env
     // Build the rx agent
     rx_agent = channel_rx_agent::type_id::create("rx_agent", this);
   endfunction : build_phase
-

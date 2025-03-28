@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : hbus_interface.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 26/01/15
+Developers    : Jacob Panov
 Description   : HBUS UVC interface for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //  FILE : hbus_if.sv
@@ -204,5 +200,3 @@ default disable iff (reset);
      `uvm_error("HBUS Interface","Address not stable during read")
 */
 endinterface : hbus_if
-
-

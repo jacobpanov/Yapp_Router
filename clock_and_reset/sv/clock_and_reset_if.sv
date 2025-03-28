@@ -1,4 +1,9 @@
-/* Copyright Cadence Design Systems (c) 2015  */
+/*-----------------------------------------------------------------
+File name     : clock_and_reset_if.sv
+Developers    : Jacob Panov
+Description   : Clock and Reset UVC interface for accelerated UVM
+-------------------------------------------------------------------*/
+
 // clock and reset (active high) interface
 
 interface clock_and_reset_if  (

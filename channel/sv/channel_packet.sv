@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_packet.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov
 Description   : Channel UVC sequence item for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -79,5 +75,4 @@ class channel_packet extends uvm_sequence_item;
   endfunction : post_randomize
 
 endclass : channel_packet
-
 

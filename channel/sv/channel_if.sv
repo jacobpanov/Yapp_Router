@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_if.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Channel UVC interface for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 interface channel_if (input clock, input reset );
 
@@ -61,4 +57,3 @@ interface channel_if (input clock, input reset );
 
    
 endinterface : channel_if
-

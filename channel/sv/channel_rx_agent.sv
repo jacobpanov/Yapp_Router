@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_rx_agent.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Channel UVC RX agent for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -56,4 +52,3 @@ endclass : channel_rx_agent
       driver.seq_item_port.connect(sequencer.seq_item_export);
     end
   endfunction : connect_phase
-

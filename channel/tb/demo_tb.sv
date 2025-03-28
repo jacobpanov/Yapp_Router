@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : demo_tb.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Demo testbench for the Channel UVC for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //

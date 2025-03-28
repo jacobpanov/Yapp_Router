@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_rx_driver.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Channel UVC RX Driver for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -93,4 +89,3 @@ endclass : channel_rx_driver
   function void channel_rx_driver::report_phase(uvm_phase phase);
     `uvm_info(get_type_name(), $sformatf("Report: %s RX Driver Sent %0d Responses",instance_id, num_sent), UVM_LOW)
   endfunction : report_phase
-

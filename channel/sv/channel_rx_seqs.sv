@@ -1,12 +1,8 @@
 /*-----------------------------------------------------------------
 File name     : channel_rx_seqs.sv
-Developers    : Kathleen Meade, Brian Dickinson
-Created       : 01/04/11
+Developers    : Jacob Panov, Kathleen Meade, Brian Dickinson
 Description   : Channel UVC RX sequences for accelerated UVM
-Notes         : From the Cadence "SystemVerilog Accelerated Verification with UVM" training 
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015 
------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
 //------------------------------------------------------------------------------
 //
@@ -73,4 +69,3 @@ class channel_rx_long_resp_seq extends uvm_sequence#(channel_resp);
   endtask : body
   
 endclass : channel_rx_long_resp_seq
- 
