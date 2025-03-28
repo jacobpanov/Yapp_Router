@@ -1,4 +1,8 @@
-/* Copyright Cadence Design Systems (c) 2015  */
+/*-----------------------------------------------------------------
+File name     : clock_and_reset_driver.sv
+Developers    : Jacob Panov
+Description   : Clock and Reset UVC driver for accelerated UVM
+-----------------------------------------------------------------*/
 
 class clock_and_reset_driver extends uvm_driver #(clock_and_reset_sequence_item);
 
@@ -214,4 +218,3 @@ class clock_and_reset_driver extends uvm_driver #(clock_and_reset_sequence_item)
   endfunction 
 
 endclass
-

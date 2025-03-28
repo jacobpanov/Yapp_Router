@@ -1,4 +1,8 @@
-/* Copyright Cadence Design Systems (c) 2015  */
+/*-----------------------------------------------------------------
+File name     : clock_and_reset_pkg.sv
+Developers    : Jacob Panov
+Description   : Clock and Reset UVC package for accelerated UVM
+-----------------------------------------------------------------*/
 
 package clock_and_reset_pkg;
 

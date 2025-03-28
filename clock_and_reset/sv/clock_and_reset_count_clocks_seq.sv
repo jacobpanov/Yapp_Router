@@ -1,4 +1,8 @@
-/* Copyright Cadence Design Systems (c) 2015  */
+/*-----------------------------------------------------------------
+File name     : clock_and_reset_count_clocks_seq.sv
+Developers    : Jacob Panov
+Description   : Clock and Reset UVC count clocks sequence for accelerated UVM
+-----------------------------------------------------------------*/
 
 class clock_and_reset_count_clocks_sequence extends uvm_sequence #(clock_and_reset_sequence_item);
 
