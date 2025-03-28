@@ -1,12 +1,9 @@
 /*-----------------------------------------------------------------
-File name     : hbus_interface.sv
+File name     : hbus_if.sv
 Developers    : Jacob Panov
-Description   : HBUS UVC interface for accelerated UVM
--------------------------------------------------------------------*/
-
-//------------------------------------------------------------------------------
-//  FILE : hbus_if.sv
-//------------------------------------------------------------------------------
+Description   : hbus instantiation for accelerated UVM
+-----------------------------------------------------------------*/
+main
 
 interface hbus_if (input clock, input reset);
   import uvm_pkg::*;
